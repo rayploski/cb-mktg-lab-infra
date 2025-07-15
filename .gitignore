@@ -1,0 +1,93 @@
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+
+# Compiled files
+*.tfstate
+*.tfstate.*
+
+# Module directory in any sub-folder
+**/.terraform
+
+# State file in any sub-folder
+**/terraform.tfstate
+**/terraform.tfstate.backup
+*.tfstate.lock.info
+**/.terraform.lock.hcl
+
+# Terraform Variables
+*.tfvars
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+#
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# Terratest / GoLang
+go.mod
+go.sum
+
+# Terraform tests
+tests/*.auto.tfvars
+
+# SSH Keys
+*.pem
+
+*.DS_Store
+*.vagrant
+
+# Generated private key
+*.key
+
+# AWS Specific AccessID and Key
+aws.env
