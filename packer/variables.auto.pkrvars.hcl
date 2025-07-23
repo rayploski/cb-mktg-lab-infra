@@ -1,0 +1,6 @@
+client_id=""
+client_secret=""
+tenant_id=""
+subscription_id=""
+resource_group_name="Marketing-Lab"
+location="West US 2"
