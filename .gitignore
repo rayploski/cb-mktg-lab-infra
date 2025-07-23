@@ -48,8 +48,9 @@ release.properties
 *.tfstate.lock.info
 **/.terraform.lock.hcl
 
-# Terraform Variables
+# Terraform / Packer Variables
 *.tfvars
+*.pkvars.hcl
 
 # Ignored Terraform files
 *gitignore*.tf
